@@ -131,4 +131,6 @@ const siteLanguageList = [
   },
 ];
 
+siteLanguageList.sort((a, b) => a.code.localeCompare(b.code));
+
 export default siteLanguageList;
